@@ -11,7 +11,6 @@ var getElementsByClassName = function(className){
   var checkNodes = function(nodes, i){
     //check to see if the function is at the end of the childNodes of the body
     if(i >=document.body.childNodes.length){ 
-      return console.log("This is end"); 
     }
     //check to see if classList exist in the childNodes
     if(nodes.childNodes[i].classList){
